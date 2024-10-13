@@ -50,4 +50,6 @@ python main.py
 ```
 
 #### Caso tenha as extensões do Python baixada em seu VSCode:
-![RUN_PYTHON](img\RUN_PYTHON.png)
+<div>
+    <img src="img\RUN_PYTHON.png">
+</div>
