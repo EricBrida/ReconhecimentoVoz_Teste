@@ -50,10 +50,3 @@ class VoiceRecognitionApp:
                 webbrowser.open(url)
             else:
                 self.resultado_label.config(text="Desculpe, não consegui entender.", fg="red")
-
-# Exemplo de uso
-if __name__ == "__main__":
-    root = tk.Tk()
-    reconhecedor = sr.Recognizer()  # Inicializa o reconhecedor
-    app = VoiceRecognitionApp(root, reconhecedor)
-    root.mainloop()
