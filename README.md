@@ -18,6 +18,7 @@ Uma aplicação básica que faz o reconhecimento da voz após um *"beep"*, captu
 - **[webbrowser](https://docs.python.org/3/library/webbrowser.html)**: Módulo padrão do Python para abrir URLs no navegador padrão do sistema.
 - **[tkinter](https://docs.python.org/3/library/tkinter.html)**: Biblioteca padrão para criar interfaces gráficas  (GUIs) em Python.
 - **[winsound](https://docs.python.org/3/library/winsound.html)**: Modulo padrão do Python para gerar sons simples em sistemas Windows.
+- **[pyaudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)**: É uma biblioteca que fornece bindings para o PortAudio, permitindo a gravação e reprodução de áudio em tempo real em aplicações Python.
 
 # Como Utilizar
 
@@ -27,11 +28,11 @@ git clone https://github.com/EricBrida/ReconhecimentoVoz_Teste.git
 cd ReconhecimentoVoz_Teste
 ```
 
-#### Após a clonagem do repositório, é uma boa indole criar um ambiente virtual para a instalação das dependências:
+#### Após a clonagem do repositório, é uma boa índole criar um ambiente virtual para a instalação das dependências:
 
 > [!NOTE]
-> *.venv ou .env são opções viáveis para o nome de seu ambiente virtual.* </br>
-> *Você pode selecionar o ambiente virtual pelo atalho CTRL + SHIFT + P, procurar por "Python: Select Interpreter" e buscar pelo .exe do venv.* </br>
+> ***.venv** ou **.env** são opções viáveis para o nome de seu ambiente virtual.* </br>
+> *Você pode selecionar o ambiente virtual pelo atalho **CTRL + SHIFT + P**, procurar por **"Python: Select Interpreter"** e buscar pelo .exe do venv.* </br>
 > *O comando "pip install -r requirements.txt" fará a instalação de todas as dependências utilizadas no projeto.*
 
 ```
@@ -39,3 +40,14 @@ python -m venv <nome_ambiente_virtual>
 <nome_ambiente_virtual>\Scripts\activate
 pip install -r requirements.txt
 ```
+
+> [!IMPORTANT]
+> *Para rodar a aplicação é necessário que você execute diretamente pelo arquivo **"main.py"***
+
+#### Caso execute pelo terminal: 
+```
+python main.py
+```
+
+#### Caso tenha as extensões do Python baixada em seu VSCode:
+![RUN_PYTHON](img\RUN_PYTHON.png)
