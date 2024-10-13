@@ -13,7 +13,7 @@ class VoiceRecognitionApp:
         self.font = tkFont.Font(family="Helvetica", size=12)
 
         # Criação de frames
-        self.main_frame = tk.Frame(root, bg="lightgray", padx=20, pady=20)
+        self.main_frame = tk.Frame(root, bg="lightgray", padx=50, pady=40)
         self.main_frame.pack(padx=100, pady=100)
 
         # Criação dos elementos da interface
