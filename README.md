@@ -14,10 +14,10 @@ Uma aplicação básica que faz o reconhecimento da voz após um *"beep"*, captu
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://docs.python.org/pt-br/3/)
 
 ### Dependências:
-- **speech_recognition**: Biblioteca para reconhecimento de voz, permitindo transcrever áudio em texto.
-- **webbrowser**: Módulo padrão do Python para abrir URLs no navegador padrão do sistema.
-- **tkinter**: Biblioteca padrão para criar interfaces gráficas  (GUIs) em Python.
-- **winsound**: Modulo padrão do Python para gerar sons simples em sistemas Windows.
+- **[speech_recognition](https://pypi.org/project/SpeechRecognition/)**: Biblioteca para reconhecimento de voz, permitindo transcrever áudio em texto.
+- **[webbrowser](https://docs.python.org/3/library/webbrowser.html)**: Módulo padrão do Python para abrir URLs no navegador padrão do sistema.
+- **[tkinter](https://docs.python.org/3/library/tkinter.html)**: Biblioteca padrão para criar interfaces gráficas  (GUIs) em Python.
+- **[winsound](https://docs.python.org/3/library/winsound.html)**: Modulo padrão do Python para gerar sons simples em sistemas Windows.
 
 # Como Utilizar
 
